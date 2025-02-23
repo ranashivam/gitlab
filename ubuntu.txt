@@ -1,0 +1,5 @@
+apt-get update &&  apt-get -y install sudo
+sudo apt-get install snapd && sudo snap install notes
+sudo apt-get update
+sudo apt install docker.io
+sudo chmod 777 /var/run/docker.sock
